@@ -1,4 +1,4 @@
-art = '''
+art = """
 *******************************************************************************
           |                   |                  |                     |
  _________|________________.=""_;=.______________|_____________________|_______
@@ -19,21 +19,4 @@ ____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
 ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 /______/______/______/______/______/______/______/______/______/______/[TomekK]
 *******************************************************************************
-'''
-
-print(art)
-print("Welcome to the Treasure Island!\nYour mission is to find the treasure...")
-
-direction = input("Wanna go right or left: ")
-if direction == "right":
-    print("Game Over!")
-else:
-    decision = input("Wanna swim or wait? ")
-    if decision == "swim":
-        print("Game Over!")
-    else:
-        door = input("Choose the door (red, yellow, blue): ")
-        if door == "red" or door == "blue":
-            print("Game Over!")
-        else:
-            print("You win!\nYou found the treasure...")
+"""
